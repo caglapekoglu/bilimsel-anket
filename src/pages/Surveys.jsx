@@ -30,7 +30,7 @@ function Surveys() {
                     <div className='flex gap-x-8'>
                         <button className='flex items-center gap-x-1'><ion-icon name="card-outline"></ion-icon>Kabul et</button>
                         <button className='flex items-center gap-x-1'><ion-icon name="close-circle-outline"></ion-icon>Reddet</button>
-                        <button className='flex items-center gap-x-1'><ion-icon name="eye-outline"></ion-icon>Teklif Detayı</button>
+                        <a href='/form' className='flex items-center gap-x-1'><ion-icon name="eye-outline"></ion-icon>Teklif Detayı</a>
 
 
                     </div>
@@ -51,7 +51,7 @@ function Surveys() {
                     </div>
                     <div className='flex gap-x-8'>
                         <button className='flex items-center gap-x-1'><ion-icon name="add-circle-outline"></ion-icon>Teklif iste</button>
-                        <button className='flex items-center gap-x-1'><ion-icon name="create-outline"></ion-icon>Düzenle</button>
+                        <a href='/form' className='flex items-center gap-x-1'><ion-icon name="create-outline"></ion-icon>Düzenle</a>
                         <button className='flex items-center gap-x-1'><ion-icon name="trash-outline"></ion-icon>Sil</button>
 
 
@@ -73,7 +73,7 @@ function Surveys() {
                     </div>
                     <div className='flex gap-x-8'>
                         <button className='flex items-center gap-x-1'><ion-icon name="add-circle-outline"></ion-icon>Teklif iste</button>
-                        <button className='flex items-center gap-x-1'><ion-icon name="create-outline"></ion-icon>Düzenle</button>
+                        <a href='/form' className='flex items-center gap-x-1'><ion-icon name="create-outline"></ion-icon>Düzenle</a>
                         <button className='flex items-center gap-x-1'><ion-icon name="trash-outline"></ion-icon>Sil</button>
 
 
@@ -94,7 +94,7 @@ function Surveys() {
 
                     </div>
                     <div className='flex gap-x-8'>
-                        <button className='flex items-center gap-x-1'><ion-icon name="eye-outline"></ion-icon>Yanıtları görüntüle</button>
+                        <a href='/yanitlar' className='flex items-center gap-x-1'><ion-icon name="eye-outline"></ion-icon>Yanıtları görüntüle</a>
                         <button className='flex items-center gap-x-1'><img className='w-2' src={Green} alt="" /> Veri toplanıyor</button>
 
 
@@ -116,7 +116,7 @@ function Surveys() {
 
                     </div>
                     <div className='flex gap-x-8'>
-                        <button className='flex items-center gap-x-1'><ion-icon name="eye-outline"></ion-icon>Yanıtları görüntüle</button>
+                        <a href='/yanitlar' className='flex items-center gap-x-1'><ion-icon name="eye-outline"></ion-icon>Yanıtları görüntüle</a>
                         <button className='flex items-center gap-x-1'><img className='w-2' src={Green} alt="" /> Veri toplanıyor</button>
 
 
@@ -124,6 +124,10 @@ function Surveys() {
                     </div>
                     </div>
                 </div>
+                <div className='flex w-full justify-end'>
+                <a href='/anketekle' className='bg-primary rounded-full  bottom-0 fixed mb-10 px-2 py-2 mr-5'><p className='w-7 h-7 text-white  flex items-center justify-center'><ion-icon name="add-outline"></ion-icon></p></a>
+                </div>
+                
             </div>
         </div>
     )

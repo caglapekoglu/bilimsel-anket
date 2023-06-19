@@ -52,7 +52,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='flex justify-center'>
-                    <button className='rounded-xl w-[80%] border-2 border-primary my-5 py-2 px-3 bg-primary text-white flex items-center justify-center  mx-5 gap-x-2'><ion-icon name="add-outline"></ion-icon>Anket oluştur</button>
+                    <a href='/anketekle' className='rounded-xl w-[80%] border-2 border-primary my-5 py-2 px-3 bg-primary text-white flex items-center justify-center  mx-5 gap-x-2'><ion-icon name="add-outline"></ion-icon>Anket oluştur</a>
 
                     </div>
                 </div>

@@ -7,7 +7,7 @@ function Pay() {
     return (
         <div className='flex flex-col items-center w-full '>
             <p className='text-black  font-bold text-2xl pt-[50px]'>Ödeme</p>
-            <div className='w-full h-full my-5 rounded-xl space-y-7 shadow-xl px-[120px] py-[62px] gap-x-[190px]'>
+            <div className='w-full h-full my-5 rounded-xl flex flex-col space-y-7 shadow-xl px-[120px] py-[62px] gap-x-[190px]'>
                 <div className='grid grid-cols-2'>
                     <div>
                         <h1 className='text-xl mb-3'>Seçilen anket: </h1>
@@ -70,7 +70,7 @@ function Pay() {
 
                         </div>
                         <div className='flex justify-end w-[300px] items-end'>
-                        <button className='rounded-xl w-[100px] border-2 border-primary my-5 py-2 px-5 bg-primary text-white items-center  gap-x-2'>Öde</button>
+                        <a href='/anketler' className='rounded-xl w-[100px] border-2 border-primary my-5 py-2 px-5 bg-primary text-white justify-center flex items-center  gap-x-2'>Öde</a>
                         </div>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ function SurveysFree() {
                             </div>
                         </div>
                         <div className='flex'>
-                            <a href="/odeme" className='underline text-primary text-sm'>Ücretli anket toplama teklifi almak istiyorum</a>
+                            <a href="/teklifal" className='underline text-primary text-sm'>Ücretli anket toplama teklifi almak istiyorum</a>
 
 
                         </div>
@@ -45,7 +45,7 @@ function SurveysFree() {
                             </div>
                         </div>
                         <div className='flex'>
-                            <a href="/odeme" className='underline text-primary text-sm'>Ücretli anket toplama teklifi almak istiyorum</a>
+                            <a href="/teklifal" className='underline text-primary text-sm'>Ücretli anket toplama teklifi almak istiyorum</a>
                         </div>
                         <div className='flex gap-x-8'>
                             <button className='flex items-center gap-x-1'><ion-icon name="eye-outline"></ion-icon>Yanıtları gör</button>
@@ -59,6 +59,10 @@ function SurveysFree() {
                         </div>
                     </div>
                 </div>
+                <div className='flex w-full justify-end'>
+                <a href='/anketekle' className='bg-primary rounded-full bottom-0 fixed mb-10 px-2 py-2 mr-5'><p className='w-7 h-7 text-white  flex items-center justify-center'><ion-icon name="add-outline"></ion-icon></p></a>
+                </div>
+
             </div>
         </div>
     )

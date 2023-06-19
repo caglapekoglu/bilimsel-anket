@@ -34,15 +34,15 @@ function Navbar() {
                     </div>
                 </div>
                 <div className='px-5 gap-y-3'>
-                    <a href='/' className='gap-x-3 rounded-xl hover:bg-primary hover:text-white flex items-center px-3 py-2 w-full'>
+                    <a href='/anasayfa' className='gap-x-3 rounded-xl hover:bg-primary hover:text-white flex items-center px-3 py-2 w-full'>
                         <ion-icon name="home-outline"></ion-icon>
                         <p>Ana Sayfa</p>
                     </a>
-                    <a href='anketler' className='gap-x-3 rounded-xl hover:bg-primary hover:text-white flex items-center px-3 py-2 w-full'>
+                    <a href='/anketler' className='gap-x-3 rounded-xl hover:bg-primary hover:text-white flex items-center px-3 py-2 w-full'>
                         <ion-icon name="document-text-outline"></ion-icon>
                         <p>Anketler</p>
                     </a>
-                    <a className='gap-x-3 rounded-xl hover:bg-primary hover:text-white flex items-center px-3 py-2 w-full'>
+                    <a href='/profil' className='gap-x-3 rounded-xl hover:bg-primary hover:text-white flex items-center px-3 py-2 w-full'>
                         <ion-icon name="person-outline"></ion-icon>
                         <p>Hesap</p>
                     </a>
@@ -71,6 +71,7 @@ function Navbar() {
 
                             ]}
                         />
+                        <a className='fixed bottom-0 pb-12 flex items-center gap-x-2' href="/giris"><ion-icon name="exit"></ion-icon>Oturumu sonlandır</a>
                 </div>
             </div>
         </div>
